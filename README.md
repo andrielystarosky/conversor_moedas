@@ -2,7 +2,7 @@
 
 Este é um projeto de conversor de moedas desenvolvido com conceitos de **programação funcional**. Ele permite que o usuário insira um valor, selecione duas moedas (origem e destino), forneça a taxa de câmbio e, em seguida, veja o valor convertido.
 
-> @Andriely; @Wilson
+> Desenvolvido por: @Andriely; @Wilson.
 ---
 
 ## Funcionalidades
@@ -50,3 +50,24 @@ git clone https://github.com/seu-usuario/conversor-moeda.git
 2. Selecione a moeda de origem e a moeda de destino.
 3. Digite a taxa de câmbio entre as duas moedas.
 4. Clique no botão "Converter" para ver o valor convertido.
+
+---
+
+## Exemplo de Entrada e Saída
+
+### Exemplo 1:
+
+Valor: 100
+Moeda de Origem: USD
+Moeda de Destino: EUR
+Taxa de Câmbio: 0.85
+Saída:
+- Resultado: 100 USD = 85 EUR
+
+### Exemplo 2:
+
+Valor: 150
+Moeda de Origem: EUR
+Moeda de Destino: BRL
+Taxa de Câmbio: 5.10
+- Resultado: 150 EUR = 765 BRL
