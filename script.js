@@ -22,5 +22,5 @@ function converterMoeda() {
     const valorConvertido = (valor * taxa).toFixed(2);
 
     const resultadoDiv = document.getElementById("resultado");
-    resultadoDiv.innerHTML = `${valor} ${moedaOrigem} equivale a ${valorConvertido} ${moedaDestino} (Taxa de conversão: ${taxa})`;
+    resultadoDiv.textContent = `${valor} ${moedaOrigem} equivale a ${valorConvertido} ${moedaDestino} (Taxa de conversão: ${taxa})`;
 }
