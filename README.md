@@ -1,6 +1,8 @@
 # Conversor de Moeda - Programação Funcional
 
 Este é um projeto de conversor de moedas desenvolvido com conceitos de **programação funcional**. Ele permite que o usuário insira um valor, selecione duas moedas (origem e destino), forneça a taxa de câmbio e, em seguida, veja o valor convertido.
+
+> @Andriely; @Wilson
 ---
 
 ## Funcionalidades
