@@ -9,8 +9,8 @@
     <!-- Estilos personalizados -->
     <link href="style.css" rel="stylesheet">
 </head>
-<body>
-    <div class="container">
+<body class="d-flex flex-column" style="min-height: 100vh;"> <!-- Flexbox para garantir que o footer fique no final -->
+    <div class="container flex-grow-1">
         <h1 class="my-5 text-center">Conversor de Moeda</h1>
         <form id="conversao-form">
             <div class="mb-3">
@@ -47,8 +47,8 @@
     </div>
 
     <!-- Footer com os desenvolvedores -->
-    <footer class="mt-5 bg-dark text-white text-center py-3">
-        <p>&copy; 2024 Conversor de Moeda - Desenvolvido por: Andriely Starosky, Wilson Hugen Junior</p>
+    <footer class="mt-5 bg-dark text-white text-center py-3 fixed-bottom">
+        <p>&copy; 2024 Conversor de Moeda - Desenvolvido por: João Silva, Maria Souza</p>
     </footer>
 
     <!-- Scripts -->
